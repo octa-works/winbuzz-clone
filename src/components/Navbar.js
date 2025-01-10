@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../assests/images/winbuzz-logo.png";
+import NavbarList from "./NavbarList";
 
 function Navbar() {
   return (
-    <div className="container-fluid">
-      <nav className="navbar bg-dark">
+    <div className="bg-success">
+      <nav className="navbar bg-dark pt-4">
         <div className="container-fluid bg-nav p-3 ">
           <img src={logo} alt="logo-winbuzz" height={40} />
           <div className="d-flex nav-search ">
@@ -25,6 +26,7 @@ function Navbar() {
             </button>
           </div>
         </div>
+        <NavbarList />
       </nav>
     </div>
   );

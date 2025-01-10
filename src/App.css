@@ -40,3 +40,24 @@
 .nav-btn {
   margin: 0 10px;
 }
+
+div.nav-scroll-menu {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  margin: 0px;
+  background-color: slategrey;
+}
+
+div.nav-scroll-menu > li {
+  color: #e2cc7d;
+  font-size: smaller;
+}
+
+div.nav-scroll-menu > li > a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
