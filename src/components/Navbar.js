@@ -3,21 +3,27 @@ import logo from "../assests/images/winbuzz-logo.png";
 
 function Navbar() {
   return (
-    <div>
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid bg-nav">
-          <img src={logo} alt="logo-winb" />
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
+    <div className="container-fluid">
+      <nav className="navbar bg-dark">
+        <div className="container-fluid bg-nav p-3 ">
+          <img src={logo} alt="logo-winbuzz" height={40} />
+          <div className="d-flex nav-search ">
+            <button className=" nav-btn">Rules</button>
+            <form className="d-flex" role="search">
+              <input
+                className=" form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <button className=" nav-btn" type="button">
+              Login
             </button>
-          </form>
+            <button className=" nav-btn " type="button">
+              Register
+            </button>
+          </div>
         </div>
       </nav>
     </div>
