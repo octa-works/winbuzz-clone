@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/winbuzz-clone/static/css/main.876ff7da.css",
+    "main.js": "/winbuzz-clone/static/js/main.397d1317.js",
+    "static/media/winbuzz-logo.png": "/winbuzz-clone/static/media/winbuzz-logo.784b7636b65c98ae7cc1.png",
+    "index.html": "/winbuzz-clone/index.html",
+    "main.876ff7da.css.map": "/winbuzz-clone/static/css/main.876ff7da.css.map",
+    "main.397d1317.js.map": "/winbuzz-clone/static/js/main.397d1317.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.876ff7da.css",
+    "static/js/main.397d1317.js"
+  ]
+}
