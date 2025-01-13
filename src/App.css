@@ -82,3 +82,25 @@ div.nav-scroll-menu > li > a {
   padding: 5px;
   text-decoration: none;
 }
+
+.right-link-menu > .p-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 136, 49, 1) 0%,
+    rgba(238, 196, 117, 1) 48%,
+    rgba(184, 136, 49, 1) 100%
+  );
+  color: #fff;
+  font-weight: 800;
+  text-align: left;
+}
+
+.right-link-img {
+  overflow: auto;
+  max-height: 300px;
+  white-space: inherit;
+}
+
+.right-link-img > img {
+  padding: 5px 0;
+}

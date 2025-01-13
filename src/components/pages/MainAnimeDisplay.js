@@ -13,20 +13,20 @@ function MainAnimeDisplay() {
     <div>
       <div class="container d-flex">
         <div class="row p-2 g-2">
-          <img src={animate1} alt="banner" className="img-fluid " />
-          <img src={banner1} alt="banner" className="img-fluid" />
+          <img src={animate1} alt="banner" className="img-thumbnail " />
+          <img src={banner1} alt="banner" className="img-thumbnail" />
         </div>
         <div class="row p-2 g-2">
-          <img src={animate2} alt="banner" className="img-fluid" />
-          <img src={banner2} alt="banner" className="img-fluid" />
+          <img src={animate2} alt="banner" className="img-thumbnail" />
+          <img src={banner2} alt="banner" className="img-thumbnail" />
         </div>
         <div class="row p-2 g-2">
-          <img src={animate3} alt="banner" className="img-fluid" />
-          <img src={banner3} alt="banner" className="img-fluid" />
+          <img src={animate3} alt="banner" className="img-thumbnail" />
+          <img src={banner3} alt="banner" className="img-thumbnail" />
         </div>
         <div class="row p-2 g-2">
-          <img src={animate4} alt="banner" className="img-fluid" />
-          <img src={banner4} alt="banner" className="img-fluid" />
+          <img src={animate4} alt="banner" className="img-thumbnail" />
+          <img src={banner4} alt="banner" className="img-thumbnail" />
         </div>
       </div>
     </div>
