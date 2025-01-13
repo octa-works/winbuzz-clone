@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assests/images/winbuzz-logo.png";
 import NavbarList from "./NavbarList";
+import Login from "./Login";
 
 function Navbar() {
   return (
@@ -18,9 +19,15 @@ function Navbar() {
                 aria-label="Search"
               />
             </form>
-            <button className=" nav-btn" type="button">
+            <button
+              type="button"
+              className="nav-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Login
             </button>
+            <Login />
             <button className=" nav-btn " type="button">
               Register
             </button>

@@ -104,3 +104,16 @@ div.nav-scroll-menu > li > a {
 .right-link-img > img {
   padding: 5px 0;
 }
+
+.modal-content {
+  background-image: url("./assests/images/login-bg.jpeg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.modal-content.modal-header > h1 {
+  align-items: centers;
+  text-align: center;
+}
