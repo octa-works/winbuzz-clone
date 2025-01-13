@@ -28,7 +28,7 @@ function Login() {
               <img
                 src={logo}
                 alt="logo"
-                className="mx-auto d-block img-fluid"
+                className="mx-auto d-block img-fluid p-4"
               />
               <LoginForm />
             </div>
@@ -42,34 +42,41 @@ function Login() {
 function LoginForm() {
   return (
     <div>
-      <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">
-            Email
-          </label>
-          <input
-            type="email"
-            class="form-control"
-            id="inputEmail4"
-            placeholder="username"
-          />
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">
-            Password
-          </label>
-          <input
-            type="password"
-            class="form-control"
-            id="inputPassword4"
-            placeholder="password"
-          />
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">
-            Sign in
-          </button>
-        </div>
+      <form class="row g-2 container">
+        <input
+          type="email"
+          class="form-control col-md-6 w-75 mx-auto"
+          id="inputEmail4"
+          placeholder="username"
+        />
+        <br />
+        <input
+          type="password"
+          class="form-control col-md-6 w-75 mx-auto"
+          id="inputPassword4"
+          placeholder="password"
+        />
+        <button type="submit" class="btn  col-md-6 w-75 mx-auto bg-warning">
+          Log in
+        </button>
+        <button
+          type="submit"
+          class="btn btn-outline-warning  col-md-6 w-75 mx-auto "
+        >
+          Log in with Demo ID
+        </button>
+        <button
+          type="submit"
+          class="btn btn-outline-warning  col-md-6 w-75 mx-auto "
+        >
+          Download APK
+        </button>
+        <button
+          type="submit"
+          class="btn btn-outline-warning  col-md-6 w-75 mx-auto "
+        >
+          Forgot Password
+        </button>
       </form>
     </div>
   );
