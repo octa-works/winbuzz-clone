@@ -33,8 +33,8 @@ export function RightSecondLinkMenu() {
   return (
     <div className=" border right-link-menu mt-3 ">
       <div className="p-1">Play Games</div>
-      <div className=" column-gap-0 ">
-        <div class="row mt-1">
+      <div className=" mt-1">
+        <div class="row ">
           <div class="col">
             <img src={casino4} alt="banner" className="img-fluid" />
           </div>
