@@ -12,6 +12,15 @@ import { GiHound } from "react-icons/gi";
 import { ImStatsBars } from "react-icons/im";
 import { MdOutlineSportsKabaddi } from "react-icons/md";
 import { IoIosBasketball } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
+import { FaBaseballBatBall } from "react-icons/fa6";
+import { FaTableTennisPaddleBall } from "react-icons/fa6";
+import { FaVolleyball } from "react-icons/fa6";
+import { MdOutlineIceSkating } from "react-icons/md";
+import { MdOutlineSportsRugby } from "react-icons/md";
+import { MdSportsMartialArts } from "react-icons/md";
+import { GoGoal } from "react-icons/go";
+import { GiRunningShoe } from "react-icons/gi";
 
 export const IconsPack = {
   Android: AiFillAndroid,
@@ -27,4 +36,13 @@ export const IconsPack = {
   Binary: ImStatsBars,
   Kabaddi: MdOutlineSportsKabaddi,
   Basketball: IoIosBasketball,
+  Arrow: IoIosArrowForward,
+  Baseball: FaBaseballBatBall,
+  TableTennis: FaTableTennisPaddleBall,
+  Volleyball: FaVolleyball,
+  IceSkating: MdOutlineIceSkating,
+  Rugby: MdOutlineSportsRugby,
+  MartialArts: MdSportsMartialArts,
+  Darts: GoGoal,
+  Futsal: GiRunningShoe,
 };
