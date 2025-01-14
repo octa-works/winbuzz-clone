@@ -1,6 +1,6 @@
 import React from "react";
 import MainDisplayMenu from "./pages/MainDisplayMenu";
-import RightLinkMenu from "./pages/RightLinkMenu";
+import RightLinkMenu, { RightSecondLinkMenu } from "./pages/RightLinkMenu";
 
 function Home() {
   return (
@@ -14,6 +14,7 @@ function Home() {
           </div>
           <div class="col-2">
             <RightLinkMenu />
+            <RightSecondLinkMenu />
           </div>
         </div>
       </div>

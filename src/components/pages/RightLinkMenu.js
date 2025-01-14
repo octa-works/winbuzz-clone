@@ -20,4 +20,44 @@ function RightLinkMenu() {
   );
 }
 
+export function RightSecondLinkMenu() {
+  return (
+    <div className=" border right-link-menu mt-3 ">
+      <div className="p-1">Play Games</div>
+      <div class="row mt-1">
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+        <div class="col">
+          <img src={routlett} alt="banner" className="img-fluid" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default RightLinkMenu;
