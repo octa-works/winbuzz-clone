@@ -107,7 +107,7 @@ function NavbarList() {
   );
 }
 
-const NavList = {
+export const NavList = {
   Nav1: "Cricket",
   Nav2: "Football",
   Nav3: "Tennis",
