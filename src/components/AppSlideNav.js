@@ -1,6 +1,7 @@
 import React from "react";
 import { NavList } from "./NavbarList";
 import { IconsPack } from "../assests/icons/IconsPack";
+import CricketSlideBar from "./AppSlideComponents/CricketSlideBar";
 
 function AppSlideNav() {
   return (
@@ -14,6 +15,7 @@ function AppSlideNav() {
           <IconsPack.Cricket className="me-2" /> {NavList.Nav1}{" "}
           <IconsPack.Arrow className="float-end" />
         </a>
+        <CricketSlideBar />
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"

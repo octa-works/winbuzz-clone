@@ -1,8 +1,21 @@
 import React from "react";
+import IconsPack from "../../assests/icons/IconsPack";
+import NavbarList, { NavList } from "../NavbarList";
 
 function CricketSlideBar() {
   return (
     <div>
+      <a
+        className="list-group-item list-group-item-action list-group-item-warning"
+        aria-current="true"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        <IconsPack.Cricket className="me-2" /> {NavList.Nav1}{" "}
+        <IconsPack.Arrow className="float-end" />
+      </a>
       <div
         className="offcanvas offcanvas-start"
         tabindex="-1"
