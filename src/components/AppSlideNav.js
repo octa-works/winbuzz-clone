@@ -11,28 +11,28 @@ function AppSlideNav() {
           className="list-group-item list-group-item-action list-group-item-warning"
           aria-current="true"
         >
-          <IconsPack.Cricket /> {NavList.Nav1}{" "}
+          <IconsPack.Cricket className="me-2" /> {NavList.Nav1}{" "}
           <IconsPack.Arrow className="float-end" />
         </a>
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Football /> {NavList.Nav2} {NavList.Nav2}
+          <IconsPack.Football className="me-2" /> {NavList.Nav2} {NavList.Nav2}
           <IconsPack.Arrow className="float-end" />
         </a>
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Tennis /> {NavList.Nav3}
+          <IconsPack.Tennis className="me-2" /> {NavList.Nav3}
           <IconsPack.Arrow className="float-end" />
         </a>
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Politics />
+          <IconsPack.Politics className="me-2" />
           {NavList.Nav4}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -40,7 +40,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Casino />
+          <IconsPack.Casino className="me-2" />
           {NavList.Nav5}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -48,7 +48,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.INTCasino />
+          <IconsPack.INTCasino className="me-2" />
           {NavList.Nav6}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -56,7 +56,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.SportsBook />
+          <IconsPack.SportsBook className="me-2" />
           {NavList.Nav7}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -64,7 +64,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.HorseRacing />
+          <IconsPack.HorseRacing className="me-2" />
           {NavList.Nav8}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -72,7 +72,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.GreyHound />
+          <IconsPack.GreyHound className="me-2" />
           {NavList.Nav9}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -80,7 +80,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Binary />
+          <IconsPack.Binary className="me-2" />
           {NavList.Nav10}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -88,7 +88,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Kabaddi />
+          <IconsPack.Kabaddi className="me-2" />
           {NavList.Nav11}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -96,7 +96,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Basketball />
+          <IconsPack.Basketball className="me-2" />
           {NavList.Nav12}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -105,7 +105,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Baseball />
+          <IconsPack.Baseball className="me-2" />
           {NavList.Nav13}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -113,7 +113,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.TableTennis />
+          <IconsPack.TableTennis className="me-2" />
           {NavList.Nav14}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -121,7 +121,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Volleyball />
+          <IconsPack.Volleyball className="me-2" />
           {NavList.Nav15}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -129,7 +129,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.IceSkating />
+          <IconsPack.IceSkating className="me-2" />
           {NavList.Nav16}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -137,7 +137,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Rugby />
+          <IconsPack.Rugby className="me-2" />
           {NavList.Nav17}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -145,7 +145,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.MartialArts />
+          <IconsPack.MartialArts className="me-2" />
           {NavList.Nav18}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -153,7 +153,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Darts />
+          <IconsPack.Darts className="me-2" />
           {NavList.Nav19}
           <IconsPack.Arrow className="float-end" />
         </a>
@@ -161,7 +161,7 @@ function AppSlideNav() {
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Futsal />
+          <IconsPack.Futsal className="me-2" />
           {NavList.Nav20}
           <IconsPack.Arrow className="float-end" />
         </a>
