@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Example.css"
+import "../../assests/stylesheet/Desktop/SlideBarNav.css";
 
 function ExampleNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +11,9 @@ function ExampleNav() {
     <div>
       {" "}
       <div className="app">
-        <div className="container">
+        <div className="container-slide">
           {/* Button to toggle the drawer */}
-          <button onClick={toggleDrawer} className="toggle-btn">
+          <button onClick={toggleDrawer} className="toggle-bton list-group-item list-group-item-action list-group-item-warning">
             {isOpen ? "Close Menu" : "Open Menu"}
           </button>
 
@@ -30,10 +30,10 @@ function ExampleNav() {
           </div>
 
           {/* Main content */}
-          <div className="main-content">
+          {/* <div className="main-content">
             <h1>Welcome to the App</h1>
             <p>This is where your main content goes.</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

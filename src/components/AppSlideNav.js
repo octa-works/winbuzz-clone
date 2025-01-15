@@ -2,17 +2,16 @@ import React from "react";
 import { NavList } from "./NavbarList";
 import { IconsPack } from "../assests/icons/IconsPack";
 import CricketSlideBar from "./AppSlideComponents/CricketSlideBar";
-import ExampleNav from "./AppSlideComponents/ExampleNav";
-
+import ExampleNav from "./AppSlideComponents/FootballSlideBar";
 
 function AppSlideNav() {
   return (
     <div>
-      <div className="list-group position-relative">
+      <div className="list-group">
         <div className="">
           <CricketSlideBar />
         </div>
-        <ExampleNav/>
+        <ExampleNav />
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
