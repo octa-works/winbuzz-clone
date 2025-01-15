@@ -2,7 +2,7 @@ import React from "react";
 import IconsPack from "../../assests/icons/IconsPack";
 import NavbarList, { NavList } from "../NavbarList";
 
-function CricketSlideBar() {
+function CricketSideBar() {
   return (
     <div>
       <a
@@ -70,4 +70,4 @@ function CricketSlideBar() {
   );
 }
 
-export default CricketSlideBar;
+export default CricketSideBar;

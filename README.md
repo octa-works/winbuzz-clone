@@ -78,7 +78,7 @@ Check out the live demo: [WinBuzz Clone Demo](#)
 Contributions are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature.
+2. Create a new branch for your **features**.
 3. Commit your changes and push the branch to your fork.
 4. Create a pull request.
 
