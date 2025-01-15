@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../../assests/stylesheet/Desktop/SlideBarNav.css";
+import { NavList } from "../NavbarList";
 
-function ExampleNav() {
+function FootballSlideBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDrawer = () => {
@@ -13,8 +14,11 @@ function ExampleNav() {
       <div className="app">
         <div className="container-slide">
           {/* Button to toggle the drawer */}
-          <button onClick={toggleDrawer} className="toggle-bton list-group-item list-group-item-action list-group-item-warning">
-            {isOpen ? "Close Menu" : "Open Menu"}
+          <button
+            onClick={toggleDrawer}
+            className="toggle-bton list-group-item list-group-item-action list-group-item-warning"
+          >
+            {isOpen ? "Previous" : `${NavList.Nav2}`}
           </button>
 
           {/* The Drawer */}
@@ -28,16 +32,10 @@ function ExampleNav() {
               </ul>
             </nav>
           </div>
-
-          {/* Main content */}
-          {/* <div className="main-content">
-            <h1>Welcome to the App</h1>
-            <p>This is where your main content goes.</p>
-          </div> */}
         </div>
       </div>
     </div>
   );
 }
 
-export default ExampleNav;
+export default FootballSlideBar;

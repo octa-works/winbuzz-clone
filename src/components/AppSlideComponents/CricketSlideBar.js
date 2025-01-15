@@ -1,73 +1,41 @@
-import React from "react";
-import NavbarList, { NavList } from "../NavbarList";
-import { IconsPack } from "../../assests/icons/IconsPack";
+import React, { useState } from "react";
+import "../../assests/stylesheet/Desktop/SlideBarNav.css";
+import { NavList } from "../NavbarList";
 
 function CricketSideBar() {
-  return (
-    <div>
-      <a
-        className="list-group-item list-group-item-action list-group-item-warning"
-        aria-current="true"
-        data-bs-toggle="offcanvas"
-        href="#offcanvasExample"
-        role="button"
-        aria-controls="offcanvasExample"
-      >
-        <IconsPack.Cricket className="me-2" /> {NavList.Nav1}{" "}
-        <IconsPack.Arrow className="float-end" />
-      </a>
-      <div
-        className="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-            Offcanvas
-          </h5>
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div className="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
-          </div>
-          <div className="dropdown mt-3">
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsOpen(!isOpen);
+    return (
+      <div>
+        {" "}
+        <div className="app">
+          <div className="container-slide">
+            {/* Button to toggle the drawer */}
             <button
-              className="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
+              onClick={toggleDrawer}
+              className="toggle-bton list-group-item list-group-item-action list-group-item-warning"
             >
-              Dropdown button
+              {isOpen ? "Previous" : `${NavList.Nav1}`}
             </button>
-            <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Another action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
-              </li>
-            </ul>
+
+            {/* The Drawer */}
+            <div className={`drawer ${isOpen ? "open" : ""}`}>
+              <nav className="drawer-content">
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>Contact</li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  };
 }
 
 export default CricketSideBar;
