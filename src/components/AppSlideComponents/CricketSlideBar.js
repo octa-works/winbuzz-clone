@@ -1,6 +1,6 @@
 import React from "react";
-import IconsPack from "../../assests/icons/IconsPack";
 import NavbarList, { NavList } from "../NavbarList";
+import { IconsPack } from "../../assests/icons/IconsPack";
 
 function CricketSideBar() {
   return (

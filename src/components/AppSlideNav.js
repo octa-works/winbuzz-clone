@@ -2,25 +2,22 @@ import React from "react";
 import { NavList } from "./NavbarList";
 import { IconsPack } from "../assests/icons/IconsPack";
 import CricketSlideBar from "./AppSlideComponents/CricketSlideBar";
+import ExampleNav from "./AppSlideComponents/ExampleNav";
+
 
 function AppSlideNav() {
   return (
     <div>
-      <div className="list-group">
-        <a
-          href="#"
-          className="list-group-item list-group-item-action list-group-item-warning"
-          aria-current="true"
-        >
-          <IconsPack.Cricket className="me-2" /> {NavList.Nav1}{" "}
-          <IconsPack.Arrow className="float-end" />
-        </a>
-        <CricketSlideBar />
+      <div className="list-group position-relative">
+        <div className="">
+          <CricketSlideBar />
+        </div>
+        <ExampleNav/>
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
         >
-          <IconsPack.Football className="me-2" /> {NavList.Nav2} {NavList.Nav2}
+          <IconsPack.Football className="me-2" /> {NavList.Nav2}
           <IconsPack.Arrow className="float-end" />
         </a>
         <a
