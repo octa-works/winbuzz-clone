@@ -1,14 +1,30 @@
 import React from "react";
 import { NavList } from "./NavbarList";
 import { IconsPack } from "../assests/icons/IconsPack";
+import CricketSidebar from "./SideNavbarComponents/CricketSidebar";
 
 function AppSlideNav() {
   return (
     <div>
       <div className="list-group">
         <a
-          href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+        >
+          <IconsPack.Cricket className="me-2" /> {NavList.Nav1}
+          <IconsPack.Arrow className="float-end" />
+        </a>
+        <CricketSidebar />
+
+        <a
+          className="list-group-item list-group-item-action list-group-item-warning"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
         >
           <IconsPack.Football className="me-2" /> {NavList.Nav2}
           <IconsPack.Arrow className="float-end" />
