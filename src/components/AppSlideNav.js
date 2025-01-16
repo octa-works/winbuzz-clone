@@ -1,17 +1,11 @@
 import React from "react";
 import { NavList } from "./NavbarList";
 import { IconsPack } from "../assests/icons/IconsPack";
-import CricketSlideBar from "./AppSlideComponents/CricketSlideBar";
-import FootballSlideBar from "./AppSlideComponents/FootballSlideBar";
 
 function AppSlideNav() {
   return (
     <div>
       <div className="list-group">
-        <div className="">
-          <CricketSlideBar />
-        </div>
-        <FootballSlideBar/>
         <a
           href="#"
           className="list-group-item list-group-item-action list-group-item-warning"
