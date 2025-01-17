@@ -103,6 +103,152 @@ function MainInPlayCricket() {
                 </div>
               </th>
             </tr>
+
+            {/* Third Cricket */}
+            <tr>
+              <th scope="col">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
+              </th>
+
+              <th scope="col">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
+              </th>
+            </tr>
+
+            {/* Fourth */}
+
+            <tr>
+              <th scope="col">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
+              </th>
+
+              <th scope="col">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
+              </th>
+            </tr>
+
+            {/* Fifth */}
+            <tr>
+              <th scope="col">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
+              </th>
+
+              <th scope="col">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
+              </th>
+            </tr>
+
+            {/* Sixth */}
+            <tr>
+              <th scope="col">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
+              </th>
+
+              <th scope="col">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
+              </th>
+            </tr>
+
+            {/* Seventh */}
+            <tr>
+              <th scope="col">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
+              </th>
+
+              <th scope="col">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
+              </th>
+            </tr>
           </tbody>
         </table>
       </div>
