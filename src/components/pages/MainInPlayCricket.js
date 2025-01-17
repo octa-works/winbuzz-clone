@@ -1,4 +1,9 @@
 import React from "react";
+import BlinkDots from "../../assests/icons/BlinkDots";
+import "../../assests/stylesheet/Desktop/TableDesign.css";
+
+const currentDate = new Date().toLocaleDateString();
+const currentTime = new Date().toLocaleTimeString();
 
 function MainInPlayCricket() {
   return (
@@ -7,34 +12,34 @@ function MainInPlayCricket() {
       <div>
         <table class="table table-hover">
           <thead>
-            <tr>
+            <tr className="table-style">
               <th scope="col">
-                <div>Twenty20 Big Bash</div>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="tb-text">
+                    <div className="small">
+                      {currentDate}-{currentTime}
+                    </div>
+                    <div>Twenty20 Big Bash</div>
+                  </div>
+                  <div className="d-flex">
+                    <BlinkDots />
+                    <button className="tbl-btn">BM</button>
+                  </div>
+                </div>
               </th>
+
               <th scope="col">
-                <button>BM</button>
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3">-</button>
+                </div>
               </th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Australia Women vs England Women</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
         </table>
       </div>
     </div>
