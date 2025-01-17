@@ -8,7 +8,7 @@ const currentTime = new Date().toLocaleTimeString();
 function MainInPlayCricket() {
   return (
     <div>
-      <div>INPLAY</div>
+      <div className="float-start">INPLAY</div>
       <div>
         <table class="table table-hover">
           <thead>
