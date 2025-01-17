@@ -1,14 +1,37 @@
 {
   "files": {
-    "main.css": "/winbuzz-clone/static/css/main.876ff7da.css",
-    "main.js": "/winbuzz-clone/static/js/main.397d1317.js",
+    "main.css": "/winbuzz-clone/static/css/main.1208d483.css",
+    "main.js": "/winbuzz-clone/static/js/main.f885fed8.js",
+    "static/media/wingogames-730-280.gif": "/winbuzz-clone/static/media/wingogames-730-280.45925f8374974e07ab8f.gif",
+    "static/media/aviator-730-280.gif": "/winbuzz-clone/static/media/aviator-730-280.32a27881d8d8e2d0c6ad.gif",
+    "static/media/mac88-730_280.webp": "/winbuzz-clone/static/media/mac88-730_280.cbe95bb615077c28a7f1.webp",
+    "static/media/login-bg.jpeg": "/winbuzz-clone/static/media/login-bg.0af9c78acc199b280c9c.jpeg",
+    "static/media/dragontiger.webp": "/winbuzz-clone/static/media/dragontiger.9aac098453ee9c92ef49.webp",
+    "static/media/sicbo.webp": "/winbuzz-clone/static/media/sicbo.50a1d5183e1a4b3d5630.webp",
+    "static/media/andar-bahar.webp": "/winbuzz-clone/static/media/andar-bahar.389a5ca9823b0f859a5e.webp",
+    "static/media/fun-games-730x280.webp": "/winbuzz-clone/static/media/fun-games-730x280.132bdfdba0b8be476745.webp",
+    "static/media/lucky7.webp": "/winbuzz-clone/static/media/lucky7.7484ef2c92f3e86b2b84.webp",
+    "static/media/roulette.webp": "/winbuzz-clone/static/media/roulette.6ca25dc051636cc7d17a.webp",
+    "static/media/banner-2.webp": "/winbuzz-clone/static/media/banner-2.d8381690d1725c4a7097.webp",
+    "static/media/casino8.webp": "/winbuzz-clone/static/media/casino8.6dd0f78c94eb68760657.webp",
+    "static/media/casino-dreamcatcher.webp": "/winbuzz-clone/static/media/casino-dreamcatcher.96bd4e2d40ccb181b554.webp",
+    "static/media/casino6.webp": "/winbuzz-clone/static/media/casino6.421d1fc04037dfe2d558.webp",
+    "static/media/banner-1.webp": "/winbuzz-clone/static/media/banner-1.4deece1952740c6a1e4a.webp",
+    "static/media/banner-3.webp": "/winbuzz-clone/static/media/banner-3.416116c63581afb34d91.webp",
+    "static/media/banner-4.webp": "/winbuzz-clone/static/media/banner-4.70d8132419f15801479c.webp",
+    "static/media/casino12.webp": "/winbuzz-clone/static/media/casino12.b456dca053eaeae951e4.webp",
+    "static/media/casino5.webp": "/winbuzz-clone/static/media/casino5.4a9e5f984f9fb74d9b2c.webp",
+    "static/media/casino10.webp": "/winbuzz-clone/static/media/casino10.321daa815dcc0940ed32.webp",
     "static/media/winbuzz-logo.png": "/winbuzz-clone/static/media/winbuzz-logo.784b7636b65c98ae7cc1.png",
+    "static/media/casino9.webp": "/winbuzz-clone/static/media/casino9.88d78a0c9a80377d53e7.webp",
+    "static/media/casino4.webp": "/winbuzz-clone/static/media/casino4.13883473458042123923.webp",
     "index.html": "/winbuzz-clone/index.html",
-    "main.876ff7da.css.map": "/winbuzz-clone/static/css/main.876ff7da.css.map",
-    "main.397d1317.js.map": "/winbuzz-clone/static/js/main.397d1317.js.map"
+    "static/media/search.svg": "/winbuzz-clone/static/media/search.582e6fdae2c59f4e7b41.svg",
+    "main.1208d483.css.map": "/winbuzz-clone/static/css/main.1208d483.css.map",
+    "main.f885fed8.js.map": "/winbuzz-clone/static/js/main.f885fed8.js.map"
   },
   "entrypoints": [
-    "static/css/main.876ff7da.css",
-    "static/js/main.397d1317.js"
+    "static/css/main.1208d483.css",
+    "static/js/main.f885fed8.js"
   ]
 }
