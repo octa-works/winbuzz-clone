@@ -46,6 +46,7 @@ function MainInPlayCricket() {
           </thead>
           {/*  */}
           <tbody>
+            {/* First cricket list */}
             <tr>
               <th scope="col">
                 <div className="d-flex justify-content-between align-items-center">
