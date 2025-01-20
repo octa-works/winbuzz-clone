@@ -44,7 +44,7 @@ const HeaderDesign = {
     border: "2px solid white",
     padding: "10px",
     borderRadius: "10px",
-    maxWidth: "700px",
+    maxWidth: "40%",
     margin: "auto",
   },
 };
