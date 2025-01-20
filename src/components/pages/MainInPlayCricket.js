@@ -9,7 +9,7 @@ const currentTime = new Date().toLocaleTimeString();
 function MainInPlayCricket() {
   return (
     <div>
-      <div className="float-start pt-2 pb-2 mt-2 mb-2">
+      <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
         <IconsPack.Inplay className="bg-warning rounded" /> INPLAY
       </div>
       <div>
@@ -58,6 +58,9 @@ function MainInPlayCricket() {
                   </div>
                   <div className="d-flex">
                     <BlinkDots />
+                    <div className="d-flex gap-2 justify-content-center align-items-center pe-2">
+                      <IconsPack.TV className="h4" />
+                    </div>
                     <button className="tbl-btn">BM</button>
                   </div>
                 </div>
@@ -65,12 +68,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -94,12 +121,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -123,12 +174,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -146,6 +221,9 @@ function MainInPlayCricket() {
                   </div>
                   <div className="d-flex">
                     <BlinkDots />
+                    <div className="d-flex gap-2 justify-content-center align-items-center pe-2">
+                      <IconsPack.Console className="h4" />
+                    </div>
                     <button className="tbl-btn">BM</button>
                   </div>
                 </div>
@@ -153,12 +231,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -182,12 +284,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> 5.9
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> 51
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -211,12 +337,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> 3
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>
@@ -240,12 +390,36 @@ function MainInPlayCricket() {
 
               <th scope="col">
                 <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
-                  <button className="ps-3 pe-3">-</button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      - <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      0 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
+                  <button className="ps-3 pe-3 small">
+                    <span>
+                      1.5 <br /> -
+                    </span>
+                  </button>
                 </div>
               </th>
             </tr>

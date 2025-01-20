@@ -25,6 +25,7 @@ import { HiMiniSignal } from "react-icons/hi2";
 import { FiPlus } from "react-icons/fi";
 import { PiBaseballFill } from "react-icons/pi";
 import { PiTelevisionSimple } from "react-icons/pi";
+import { GiConsoleController } from "react-icons/gi";
 
 export const IconsPack = {
   Android: AiFillAndroid,
@@ -53,4 +54,5 @@ export const IconsPack = {
   Plus: FiPlus,
   Cricket2: PiBaseballFill,
   TV: PiTelevisionSimple,
+  Console: GiConsoleController,
 };
