@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assests/images/winbuzz-logo.png";
 import NavbarList from "./NavbarList";
 import Login from "./Login";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -28,9 +29,13 @@ function Navbar() {
               Login
             </button>
             <Login />
-            <button className=" nav-btn " type="button">
+            {/* <button className=" nav-btn " type="button">
               Register
-            </button>
+            </button> */}
+            <Link className="nav-btn text-black align-content-center" to="/winbuzz-clone/signup">
+              {" "}
+              Register
+            </Link>
           </div>
         </div>
         <NavbarList />
