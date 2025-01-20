@@ -73,8 +73,8 @@ div.nav-scroll-menu > li > a {
 }
 
 .modal-content {
-  background-image: url("./assests/images/login-bg.jpeg");
-  height: 600px;
+  background-image: url("./assests/images/login.jpg");
+  height: 700px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
