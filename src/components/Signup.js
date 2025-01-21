@@ -5,12 +5,12 @@ import { IconsPack } from "../assests/icons/IconsPack";
 function Signup() {
   return (
     <div style={HeaderDesign}>
-      <div style={HeaderDesign.HeaderBorder} className="container">
-        <div className="container d-flex justify-content-center p-3">
+      <div style={HeaderDesign.HeaderBorder} className="container-fluid">
+        <div className="container-fluid d-flex justify-content-center p-3">
           <img src={logo} alt="signup-logo" />
         </div>
         <form className="signup-design">
-          <div className="container d-flex justify-content-center border-bottom w-50">
+          <div className="container-fluid d-flex justify-content-center border-bottom w-50">
             <select
               class="form-select w-auto bg-transparent border-0 text-white pt-3 pb-3"
               aria-label="Default select example"
@@ -29,7 +29,7 @@ function Signup() {
               required
             />
           </div>
-          <div className="container justify-content-center border-bottom w-50 pt-3 pb-3">
+          <div className="container-fluid justify-content-center border-bottom w-50 pt-3 pb-3">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -40,7 +40,7 @@ function Signup() {
           <div className="text-wrap" style={{ color: "red" }}>
             (Password must be 8-15 characters long and must contain atleast)
           </div>
-          <div className="container justify-content-center border-bottom w-50 pt-3 pb-3">
+          <div className="container-fluid justify-content-center border-bottom w-50 pt-3 pb-3">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -65,14 +65,14 @@ function Signup() {
           </button>
           <div
             style={HeaderDesign.AlreadyAccount}
-            className="container d-flex justify-content-center align-items-center pt-3 pb-3"
+            className="container-fluid d-flex justify-content-center align-items-center pt-3 pb-3"
           >
             <div className="border-bottom">Already have an Account</div>
             <button className="bg-transparent text-white border-bottom border-0">
               LOGIN
             </button>
           </div>
-          <div className="container d-flex justify-content-between p-2">
+          <div className="container-fluid d-flex justify-content-between p-2 text-wrap overflow-hidden">
             <Discount bonus="400% Bonus" deposit="1st Deposit" />
             <Discount bonus="50% Bonus" deposit="2nd Deposit" />
             <Discount bonus="10% Bonus" deposit="3rd Deposit" />
