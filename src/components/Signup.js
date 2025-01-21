@@ -12,7 +12,7 @@ function Signup() {
         <form className="signup-design">
           <div className="container-fluid d-flex justify-content-center border-bottom text-wrap overflow-hidden">
             <select
-              class="form-select w-auto bg-transparent border-0 text-white pt-2 pb-2"
+              class="form-select w-auto bg-transparent border-0 text-white pt-3 pb-3"
               aria-label="Default select example"
             >
               <option value="in" selected className="text-dark">
@@ -29,7 +29,7 @@ function Signup() {
               required
             />
           </div>
-          <div className="container-fluid justify-content-center border-bottom pt-2 pb-2 text-wrap overflow-hidden">
+          <div className="container-fluid justify-content-center border-bottom pt-3 pb-3 text-wrap overflow-hidden">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -42,7 +42,7 @@ function Signup() {
               (Password must be 8-15 characters long and must contain atleast)
             </p>
           </div>
-          <div className="container-fluid justify-content-center border-bottom pt-2 pb-2 text-wrap overflow-hidden">
+          <div className="container-fluid justify-content-center border-bottom pt-3 pb-3 text-wrap overflow-hidden">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -58,18 +58,18 @@ function Signup() {
           </div>
           <button className="btn bg-primary mt-3 mb-3">GET OTP</button>
         </form>
-        <div style={HeaderDesign.HorizonalMain} className="pt-2 pb-2">
+        <div style={HeaderDesign.HorizonalMain} className="pt-3 pb-3">
           <hr className="border w-50 bg-danger" /> OR
           <hr className="border w-50" />
         </div>
-        <div className="pt-2 pb-2">
+        <div className="pt-3 pb-3">
           <div>Get your ready-made ID from whatsapp</div>
           <button className="btn bg-warning p-2 mt-3 mb-3">
             <IconsPack.Whatsapp /> WHATSAPP NOW
           </button>
           <div
             style={HeaderDesign.AlreadyAccount}
-            className="container-fluid d-flex justify-content-center align-items-center pt-2 pb-2"
+            className="container-fluid d-flex justify-content-center align-items-center pt-3 pb-3"
           >
             <div className="border-bottom">Already have an Account</div>
             <button className="bg-transparent text-white border-bottom border-0">
@@ -101,8 +101,8 @@ const HeaderDesign = {
   color: "white",
   padding: "10px",
   textAlign: "center",
-  height: "100%",
-  maxHeight: "100vh",
+  // height: "100%",
+  // maxHeight: "100vh",
   HeaderBorder: {
     border: "2px solid white",
     padding: "10px",
