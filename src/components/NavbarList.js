@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavbarList() {
   return (
@@ -7,6 +8,11 @@ function NavbarList() {
         <a href="#" className="text-white bg-transparent">
           {NavList.Nav1}
         </a>
+      </li>
+      <li>
+        <Link to='/winbuzz-clone/cricket' className="text-white bg-transparent">
+          {NavList.Nav1}
+        </Link>
       </li>
       <li>
         <a href="#" className="text-white bg-transparent">
