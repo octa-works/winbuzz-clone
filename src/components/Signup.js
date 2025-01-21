@@ -87,7 +87,7 @@ function Discount(props) {
   return (
     <div className="dis-btn">
       <div>{props.bonus}</div>
-      <div className="dis-deposit">{props.deposit}</div>
+      <div className="dis-deposit badge">{props.deposit}</div>
     </div>
   );
 }
