@@ -10,7 +10,7 @@ function Signup() {
           <img src={logo} alt="signup-logo" />
         </div>
         <form className="signup-design">
-          <div className="container-fluid d-flex justify-content-center border-bottom w-50">
+          <div className="container-fluid d-flex justify-content-center border-bottom text-wrap overflow-hidden">
             <select
               class="form-select w-auto bg-transparent border-0 text-white pt-2 pb-2"
               aria-label="Default select example"
@@ -29,7 +29,7 @@ function Signup() {
               required
             />
           </div>
-          <div className="container-fluid justify-content-center border-bottom w-50 pt-2 pb-2">
+          <div className="container-fluid justify-content-center border-bottom pt-2 pb-2 text-wrap overflow-hidden">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -42,7 +42,7 @@ function Signup() {
               (Password must be 8-15 characters long and must contain atleast)
             </p>
           </div>
-          <div className="container-fluid justify-content-center border-bottom w-50 pt-2 pb-2">
+          <div className="container-fluid justify-content-center border-bottom pt-2 pb-2 text-wrap overflow-hidden">
             <input
               className="bg-transparent border-0 text-center"
               type="text"
@@ -101,7 +101,8 @@ const HeaderDesign = {
   color: "white",
   padding: "10px",
   textAlign: "center",
-  height: "100vh",
+  height: "100%",
+  maxHeight: "100vh",
   HeaderBorder: {
     border: "2px solid white",
     padding: "10px",
