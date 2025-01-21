@@ -87,6 +87,7 @@ div.nav-scroll-menu > li > a {
 }
 
 /* Signup CSS */
+
 .signup-design > div > select:focus,
 input:focus,
 input::placeholder {
@@ -95,7 +96,28 @@ input::placeholder {
   box-shadow: none;
 }
 
-
 .signup-design > div > input::placeholder {
   color: #f5f5f5;
+}
+
+.dis-btn{
+  background: linear-gradient(
+    90deg,
+    rgba(184, 136, 49, 1) 0%,
+    rgba(238, 196, 117, 1) 48%,
+    rgba(184, 136, 49, 1) 100%
+  );
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-weight: 800;
+}
+
+.dis-deposit{
+  background-color: #0F2326;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
 }
