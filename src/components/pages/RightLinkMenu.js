@@ -33,21 +33,21 @@ export function RightSecondLinkMenu() {
   return (
     <div className=" border right-link-menu mt-3 ">
       <div className="p-1">Play Games</div>
-      <div className=" mt-1">
-        <div class="row ">
+      <div className="mt-1">
+        <div class="row">
           <div class="col">
-            <img src={casino4} alt="banner" className="img-fluid" />
+            <img src={casino4} alt="banner" className="img-fluid w-100" />
           </div>
           <div class="col">
-            <img src={casino5} alt="banner" className="img-fluid" />
+            <img src={casino5} alt="banner" className="img-fluid w-100" />
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src={casino6} alt="banner" className="img-fluid" />
+            <img src={casino6} alt="banner" className="img-fluid w-100" />
           </div>
           <div class="col">
-            <img src={casino8} alt="banner" className="img-fluid" />
+            <img src={casino8} alt="banner" className="img-fluid w-100" />
           </div>
         </div>
         <div class="row">
