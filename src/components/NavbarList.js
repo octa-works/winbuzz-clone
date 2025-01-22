@@ -5,29 +5,36 @@ function NavbarList() {
   return (
     <div className="nav-scroll-menu bg-transparent">
       <li>
-        <a href="#" className="text-white bg-transparent">
-          {NavList.Nav1}
-        </a>
-      </li>
-      <li>
-        <Link to='/winbuzz-clone/cricket' className="text-white bg-transparent">
+        <Link
+          to="/winbuzz-clone/cricket-list"
+          className="text-white bg-transparent"
+        >
           {NavList.Nav1}
         </Link>
       </li>
       <li>
-        <a href="#" className="text-white bg-transparent">
+        <Link
+          to="/winbuzz-clone/football-list"
+          className="text-white bg-transparent"
+        >
           {NavList.Nav2}
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="#" className="text-white bg-transparent">
+      <Link
+          to="/winbuzz-clone/tennis-list"
+          className="text-white bg-transparent"
+        >
           {NavList.Nav3}
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="#" className="text-white bg-transparent">
+      <Link
+          to="/winbuzz-clone/politics-list"
+          className="text-white bg-transparent"
+        >
           {NavList.Nav4}
-        </a>
+        </Link>
       </li>
       <li>
         <a href="#" className="text-white bg-transparent">

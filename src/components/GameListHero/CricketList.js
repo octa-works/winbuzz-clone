@@ -6,13 +6,13 @@ import { IconsPack } from "../../assests/icons/IconsPack";
 const currentDate = new Date().toLocaleDateString();
 const currentTime = new Date().toLocaleTimeString();
 
-function MainInPlayCricket() {
+function CricketList(data ) {
   return (
-    <div className="container-fluid">
-      {/* <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
-        <IconsPack.Inplay className="bg-warning rounded" /> INPLAY
-      </div> */}
-      <div className="table-responsive">
+    <div>
+      <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
+        <IconsPack.Inplay className="bg-warning rounded" /> EXCHANGE GAMES
+      </div>
+      <div>
         <table class="table table-hover border border-1 rounded-3 table-responsive">
           <thead className="table-success rounded">
             <tr className="table-style">
@@ -20,7 +20,7 @@ function MainInPlayCricket() {
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="tb-text">
                     <IconsPack.Cricket2 className="me-2" />
-                    CRICKET
+                    {data.title}
                   </div>
                   <div className="d-flex gap-2">
                     <button className="tbl-btn border border-danger text-black">
@@ -430,4 +430,4 @@ function MainInPlayCricket() {
   );
 }
 
-export default MainInPlayCricket;
+export default CricketList;
