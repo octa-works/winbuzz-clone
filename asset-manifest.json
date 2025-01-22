@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/winbuzz-clone/static/css/main.60576ed9.css",
-    "main.js": "/winbuzz-clone/static/js/main.720061c5.js",
+    "main.css": "/winbuzz-clone/static/css/main.ded2f783.css",
+    "main.js": "/winbuzz-clone/static/js/main.60e20382.js",
     "static/media/wingogames-730-280.gif": "/winbuzz-clone/static/media/wingogames-730-280.45925f8374974e07ab8f.gif",
     "static/media/aviator-730-280.gif": "/winbuzz-clone/static/media/aviator-730-280.32a27881d8d8e2d0c6ad.gif",
     "static/media/mac88-730_280.webp": "/winbuzz-clone/static/media/mac88-730_280.cbe95bb615077c28a7f1.webp",
-    "static/media/login-bg.jpeg": "/winbuzz-clone/static/media/login-bg.0af9c78acc199b280c9c.jpeg",
+    "static/media/login.jpg": "/winbuzz-clone/static/media/login.84a7c9543ccc138799c3.jpg",
     "static/media/dragontiger.webp": "/winbuzz-clone/static/media/dragontiger.9aac098453ee9c92ef49.webp",
     "static/media/sicbo.webp": "/winbuzz-clone/static/media/sicbo.50a1d5183e1a4b3d5630.webp",
     "static/media/andar-bahar.webp": "/winbuzz-clone/static/media/andar-bahar.389a5ca9823b0f859a5e.webp",
     "static/media/fun-games-730x280.webp": "/winbuzz-clone/static/media/fun-games-730x280.132bdfdba0b8be476745.webp",
     "static/media/lucky7.webp": "/winbuzz-clone/static/media/lucky7.7484ef2c92f3e86b2b84.webp",
     "static/media/roulette.webp": "/winbuzz-clone/static/media/roulette.6ca25dc051636cc7d17a.webp",
+    "static/media/casinoFruitRace1.jpeg": "/winbuzz-clone/static/media/casinoFruitRace1.b684b9ce0c682efc8b40.jpeg",
+    "static/media/32casinoCards.jpeg": "/winbuzz-clone/static/media/32casinoCards.02651fc1f867b4f6ed88.jpeg",
+    "static/media/casinoliveDice.jpeg": "/winbuzz-clone/static/media/casinoliveDice.d6c28871afe6239ceb05.jpeg",
     "static/media/banner-2.webp": "/winbuzz-clone/static/media/banner-2.d8381690d1725c4a7097.webp",
+    "static/media/casinoBetNumber.jpeg": "/winbuzz-clone/static/media/casinoBetNumber.d8a8f1747f3ea264b2c3.jpeg",
+    "static/media/CasinoJokerBet.jpeg": "/winbuzz-clone/static/media/CasinoJokerBet.b6375a48a1d44c4a22ea.jpeg",
     "static/media/casino8.webp": "/winbuzz-clone/static/media/casino8.6dd0f78c94eb68760657.webp",
+    "static/media/blackJackCasinoGame.webp": "/winbuzz-clone/static/media/blackJackCasinoGame.696304dc29692588a083.webp",
     "static/media/casino-dreamcatcher.webp": "/winbuzz-clone/static/media/casino-dreamcatcher.96bd4e2d40ccb181b554.webp",
+    "static/media/casinoPoker.jpeg": "/winbuzz-clone/static/media/casinoPoker.0aa2ed60d9d0e2b78e27.jpeg",
     "static/media/casino6.webp": "/winbuzz-clone/static/media/casino6.421d1fc04037dfe2d558.webp",
     "static/media/banner-1.webp": "/winbuzz-clone/static/media/banner-1.4deece1952740c6a1e4a.webp",
     "static/media/banner-3.webp": "/winbuzz-clone/static/media/banner-3.416116c63581afb34d91.webp",
@@ -27,11 +34,11 @@
     "static/media/casino4.webp": "/winbuzz-clone/static/media/casino4.13883473458042123923.webp",
     "index.html": "/winbuzz-clone/index.html",
     "static/media/search.svg": "/winbuzz-clone/static/media/search.582e6fdae2c59f4e7b41.svg",
-    "main.60576ed9.css.map": "/winbuzz-clone/static/css/main.60576ed9.css.map",
-    "main.720061c5.js.map": "/winbuzz-clone/static/js/main.720061c5.js.map"
+    "main.ded2f783.css.map": "/winbuzz-clone/static/css/main.ded2f783.css.map",
+    "main.60e20382.js.map": "/winbuzz-clone/static/js/main.60e20382.js.map"
   },
   "entrypoints": [
-    "static/css/main.60576ed9.css",
-    "static/js/main.720061c5.js"
+    "static/css/main.ded2f783.css",
+    "static/js/main.60e20382.js"
   ]
 }
