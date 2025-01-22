@@ -1,0 +1,55 @@
+/* .table-style>td>div>.small {
+    font-size: 10px;
+} */
+
+.tb-text > div:first-child {
+  color: #696161;
+  font-size: 10px;
+}
+
+.tb-text > div:last-child {
+  font-size: 13px;
+}
+
+.tbl-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 136, 49, 1) 0%,
+    rgba(238, 196, 117, 1) 48%,
+    rgba(184, 136, 49, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  /* border-radius: 80%; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.inplayCrickRight > button {
+  border-radius: 25%;
+  border: none;
+}
+
+.inplayCrickRight > button:nth-child(1),
+button:nth-child(3),
+button:nth-child(5) {
+  background-color: #a5d9fe;
+}
+
+.inplayCrickRight > button:nth-child(2),
+button:nth-child(4),
+button:nth-child(6) {
+  background-color: #f8d0ce;
+}
+
+
+.thd-style{
+    background-color: rgb(45, 109, 109) !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}

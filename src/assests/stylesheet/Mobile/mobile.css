@@ -1,0 +1,22 @@
+/* NavBAR STYLING */
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .bg-success > .navbar > .container-fluid {
+    background-color: #f8f9fa;
+    display: flex;
+  }
+  .nav-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .logo-winbuzz {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,20 @@
+#blink {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(61, 160, 82);
+  border-radius: 100px;
+  margin: 20px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+    background-color: #000000;
+  }
+  100% {
+    opacity: 1;
+  }
+}

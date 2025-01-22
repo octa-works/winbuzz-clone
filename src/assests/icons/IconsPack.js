@@ -21,6 +21,12 @@ import { MdOutlineSportsRugby } from "react-icons/md";
 import { MdSportsMartialArts } from "react-icons/md";
 import { GoGoal } from "react-icons/go";
 import { GiRunningShoe } from "react-icons/gi";
+import { HiMiniSignal } from "react-icons/hi2";
+import { FiPlus } from "react-icons/fi";
+import { PiBaseballFill } from "react-icons/pi";
+import { PiTelevisionSimple } from "react-icons/pi";
+import { GiConsoleController } from "react-icons/gi";
+import { SiWhatsapp } from "react-icons/si";
 
 export const IconsPack = {
   Android: AiFillAndroid,
@@ -45,4 +51,10 @@ export const IconsPack = {
   MartialArts: MdSportsMartialArts,
   Darts: GoGoal,
   Futsal: GiRunningShoe,
+  Inplay: HiMiniSignal,
+  Plus: FiPlus,
+  Cricket2: PiBaseballFill,
+  TV: PiTelevisionSimple,
+  Console: GiConsoleController,
+  Whatsapp: SiWhatsapp,
 };
