@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/winbuzz-clone" element={<Home />} />
-        <Route path="/winbuzz-clone/signup" element={<Signup />} />
+        <Route path="winbuzz-clone/*" element={<Home />} />
+        <Route path="winbuzz-clone/signup" element={<Signup />} />
       </Routes>
     </>
   );
