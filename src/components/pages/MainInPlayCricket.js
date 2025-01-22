@@ -8,11 +8,11 @@ const currentTime = new Date().toLocaleTimeString();
 
 function MainInPlayCricket() {
   return (
-    <div>
-      <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
+    <div className="container-fluid">
+      {/* <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
         <IconsPack.Inplay className="bg-warning rounded" /> INPLAY
-      </div>
-      <div>
+      </div> */}
+      <div className="table-responsive">
         <table class="table table-hover border border-1 rounded-3 table-responsive">
           <thead className="table-success rounded">
             <tr className="table-style">
