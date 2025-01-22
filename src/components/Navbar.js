@@ -9,7 +9,9 @@ function Navbar() {
     <div className="bg-success">
       <nav className="navbar bg-dark pt-4">
         <div className="container-fluid bg-nav p-3 ">
-          <img src={logo} alt="logo-winbuzz" height={40} />
+          <Link to="/winbuzz-clone" className="text-white">
+            <img src={logo} alt="logo-winbuzz" height={40} />
+          </Link>
           <div className="d-flex nav-search ">
             <button className=" nav-btn">Rules</button>
             <form className="d-flex" role="search">
@@ -32,7 +34,10 @@ function Navbar() {
             {/* <button className=" nav-btn " type="button">
               Register
             </button> */}
-            <Link className="nav-btn text-black align-content-center" to="/winbuzz-clone/signup">
+            <Link
+              className="nav-btn text-black align-content-center"
+              to="/winbuzz-clone/signup"
+            >
               {" "}
               Register
             </Link>
