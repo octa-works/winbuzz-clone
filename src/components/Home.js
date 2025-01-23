@@ -15,10 +15,10 @@ function Home() {
       {/* grid responsive */}
       <div class="container-fluid">
         <div class="row">
-          <div class="col-2">
+          <div class="col-2 mob-app-slide">
             <AppSlideNav />
           </div>
-          <div class="col-8">
+          <div class="col-8 mob-home-main">
             {/* <MainDisplayMenu /> */}
             <Routes>
               <Route path="*" element={<MainDisplayMenu />} />
@@ -28,7 +28,7 @@ function Home() {
               <Route path="/politics-list" element={<TennisList title="POLITICS" />} />
             </Routes>
           </div>
-          <div class="col-2">
+          <div class="col-2 mob-app-slide">
             <RightLinkMenu />
             <RightSecondLinkMenu />
           </div>
