@@ -1,9 +1,9 @@
 /* NavBAR STYLING */
 
 @media screen and (max-width: 480px) {
-  body {
+  /* body {
     background-color: lightgreen;
-  }
+  } */
 
   .bg-success > .navbar > .container-fluid {
     background-color: #f8f9fa;
@@ -19,10 +19,10 @@
     width: 70px;
     height: 70px;
   }
-  .mob-app-slide{
+  .mob-app-slide {
     display: none;
   }
-  .mob-home-main{
+  .mob-home-main {
     justify-content: center;
     align-items: center;
     width: fit-content;
