@@ -19,6 +19,10 @@
   background: transparent url("../src/assests/icons/search.svg") no-repeat 13px;
 }
 
+.nav-search>form>input[type='search']:focus{
+  box-shadow: none;
+}
+
 .nav-btn {
   margin: 0 10px;
   border: 1px solid white;

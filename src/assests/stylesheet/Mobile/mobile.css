@@ -10,21 +10,47 @@
     display: flex;
   }
   .nav-search {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin: 10px 0;
+    justify-content: space-between;
   }
-  .logo-winbuzz {
-    width: 70px;
-    height: 70px;
-  }
+
+  /* .logo-winbuzz {
+    border-color: aquamarine;
+  } */
+
   .mob-app-slide {
     display: none;
   }
+
   .mob-home-main {
     justify-content: center;
     align-items: center;
     width: fit-content;
+  }
+
+  .nav-con-mob{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-con-mob>.text-white{
+    border-color: black;
+  }
+
+  .nav-search>form>input[type="search"] {
+    width: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  }
+
+  .nav-search>form>input[type="search"]:focus {
+    width: 100%;
+  }
+
+  .nav-search>button:nth-child(1){
+    display: none;
   }
 }
