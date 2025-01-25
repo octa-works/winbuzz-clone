@@ -27,6 +27,7 @@ import { PiBaseballFill } from "react-icons/pi";
 import { PiTelevisionSimple } from "react-icons/pi";
 import { GiConsoleController } from "react-icons/gi";
 import { SiWhatsapp } from "react-icons/si";
+import { IoArrowBackCircleSharp } from "react-icons/io5";
 
 export const IconsPack = {
   Android: AiFillAndroid,
@@ -57,4 +58,5 @@ export const IconsPack = {
   TV: PiTelevisionSimple,
   Console: GiConsoleController,
   Whatsapp: SiWhatsapp,
+  Back: IoArrowBackCircleSharp,
 };

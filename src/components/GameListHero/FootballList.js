@@ -9,25 +9,25 @@ const currentTime = new Date().toLocaleTimeString();
 function FootballList(data) {
   return (
     <div>
-      <div className="float-start pt-2 pb-2 mt-2 mb-2 h6">
+      <div className="pt-2 pb-2 mt-2 mb-2 h6">
         <IconsPack.Inplay className="bg-warning rounded" /> EXCHANGE GAMES
       </div>
-      <div>
+      <div className="table-responsive">
         <table class="table table-hover border border-1 rounded-3 table-responsive">
           <thead className="table-success rounded">
             <tr className="table-style">
               <th scope="col">
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="tb-text">
+                <div className="d-flex justify-content-between align-items-center gap-2">
+                  <div className="tb-text d-flex justify-content-center align-items-center">
                     <IconsPack.Cricket2 className="me-2" />
                     {data.title}
                   </div>
                   <div className="d-flex gap-2">
-                    <button className="tbl-btn border border-danger text-black">
+                    <button className="d-flex justify-content-center align-items-center tbl-btn border border-danger text-black">
                       <IconsPack.Plus />
                       Live
                     </button>
-                    <button className="tbl-btn border border-danger text-black">
+                    <button className="d-flex justify-content-center align-items-center tbl-btn border border-danger text-black">
                       <IconsPack.Plus />
                       Virtual
                     </button>
@@ -48,7 +48,7 @@ function FootballList(data) {
           <tbody>
             {/* First  list */}
             <tr>
-              <th scope="col">
+              <th scope="col" className="justify-content-center align-items-center">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="tb-text">
                     <div className="small">
@@ -67,7 +67,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -120,7 +120,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -173,7 +173,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -230,7 +230,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -283,7 +283,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -336,7 +336,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -
@@ -389,7 +389,7 @@ function FootballList(data) {
               </th>
 
               <th scope="col">
-                <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                   <button className="ps-3 pe-3 small">
                     <span>
                       1.5 <br /> -

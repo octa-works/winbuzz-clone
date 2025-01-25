@@ -10,8 +10,8 @@ import banner4 from "../../assests/images/banners/banner-4.webp";
 
 function MainAnimeDisplay() {
   return (
-    <div>
-      <div class="container d-flex">
+    <div className="mainAnimate-Mob">
+      <div class="container d-flex scroll-container">
         <div class="row p-2 g-2">
           <img src={animate1} alt="banner" className="img-thumbnail " />
           <img src={banner1} alt="banner" className="img-thumbnail" />

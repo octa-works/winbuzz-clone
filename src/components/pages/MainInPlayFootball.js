@@ -15,17 +15,17 @@ function MainInPlayFootball() {
             <thead className="table-success rounded">
               <tr className="table-style">
                 <th scope="col">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="tb-text">
+                  <div className="d-flex justify-content-between align-items-center gap-2">
+                    <div className="tb-text d-flex justify-content-center align-items-center">
                       <IconsPack.Football className="me-2" />
                       Football
                     </div>
                     <div className="d-flex gap-2">
-                      <button className="tbl-btn border border-danger text-black">
+                      <button className="d-flex justify-content-center align-items-center tbl-btn border border-danger text-black">
                         <IconsPack.Plus />
                         Live
                       </button>
-                      <button className="tbl-btn border border-danger text-black">
+                      <button className="d-flex justify-content-center align-items-center tbl-btn border border-danger text-black">
                         <IconsPack.Plus />
                         Virtual
                       </button>
@@ -46,7 +46,7 @@ function MainInPlayFootball() {
             <tbody>
               {/* First football list */}
               <tr>
-                <th scope="col">
+                <th scope="col" className="justify-content-center align-items-center">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="tb-text">
                       <div className="small">
@@ -65,7 +65,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-2 pe-2 small">
                       <span>
                         1.5 <br /> -
@@ -118,7 +118,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
@@ -171,7 +171,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
@@ -225,7 +225,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
@@ -278,7 +278,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
@@ -331,7 +331,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
@@ -384,7 +384,7 @@ function MainInPlayFootball() {
                 </th>
 
                 <th scope="col">
-                  <div className="inplayCrickRight d-flex justify-content-between align-items-center ms-2 mb-3">
+                  <div className="inplayCrickRight d-flex justify-content-between align-items-center mt-2">
                     <button className="ps-3 pe-3 small">
                       <span>
                         1.5 <br /> -
