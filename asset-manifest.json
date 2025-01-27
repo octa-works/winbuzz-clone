@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/winbuzz-clone/static/css/main.dd804801.css",
-    "main.js": "/winbuzz-clone/static/js/main.2dfd08b8.js",
+    "main.css": "/winbuzz-clone/static/css/main.c1038644.css",
+    "main.js": "/winbuzz-clone/static/js/main.95672275.js",
     "static/media/wingogames-730-280.gif": "/winbuzz-clone/static/media/wingogames-730-280.45925f8374974e07ab8f.gif",
     "static/media/aviator-730-280.gif": "/winbuzz-clone/static/media/aviator-730-280.32a27881d8d8e2d0c6ad.gif",
     "static/media/mac88-730_280.webp": "/winbuzz-clone/static/media/mac88-730_280.cbe95bb615077c28a7f1.webp",
@@ -34,11 +34,11 @@
     "static/media/casino4.webp": "/winbuzz-clone/static/media/casino4.13883473458042123923.webp",
     "index.html": "/winbuzz-clone/index.html",
     "static/media/search.svg": "/winbuzz-clone/static/media/search.582e6fdae2c59f4e7b41.svg",
-    "main.dd804801.css.map": "/winbuzz-clone/static/css/main.dd804801.css.map",
-    "main.2dfd08b8.js.map": "/winbuzz-clone/static/js/main.2dfd08b8.js.map"
+    "main.c1038644.css.map": "/winbuzz-clone/static/css/main.c1038644.css.map",
+    "main.95672275.js.map": "/winbuzz-clone/static/js/main.95672275.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd804801.css",
-    "static/js/main.2dfd08b8.js"
+    "static/css/main.c1038644.css",
+    "static/js/main.95672275.js"
   ]
 }
